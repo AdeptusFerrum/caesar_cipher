@@ -87,7 +87,7 @@ public class CaesarCipher {
                 return alphabet[newIndex];
             }
         } catch (Exception e) {
-            return c; // В случае ошибки возвращаем исходный символ
+            return c;
         }
     }
 
