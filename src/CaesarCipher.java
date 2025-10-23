@@ -14,7 +14,7 @@ public class CaesarCipher {
             System.out.println("\n=== ШИФР ЦЕЗАРЯ ===");
             System.out.println("1. Зашифровать текст");
             System.out.println("2. Расшифровать текст с ключом");
-            System.out.println("3. Взломать перебором (brute force)");
+            System.out.println("3. Взломать перебором");
             System.out.println("4. Выйти");
             System.out.print("Выберите режим: ");
 
