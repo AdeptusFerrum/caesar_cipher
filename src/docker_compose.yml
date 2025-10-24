@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  caesar-cipher:
+    build: .
+    container_name: caesar-cipher-app
+    volumes:
+      - ./files:/app/files
+    stdin_open: true
+    tty: true
